@@ -2,4 +2,4 @@
 
 # ignore everything that isn't source-code
 *
-!/pages/
+!/src/
