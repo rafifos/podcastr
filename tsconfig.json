@@ -8,6 +8,7 @@
     "node_modules/"
   ],
   "compilerOptions": {
+    "baseUrl": "./src/",
     "strict": false,
     "target": "ES5",
     "lib": [
