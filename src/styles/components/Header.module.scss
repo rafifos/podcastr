@@ -1,0 +1,21 @@
+@import "styles/colors";
+
+.Header {
+  background-color: $background__base;
+  height: 6.5rem;
+  display: flex;
+  align-items: center;
+  padding: 2rem 4rem;
+  box-shadow: $shadow__minimal 0 4px 8px 0;
+
+  p {
+    margin-left: 2rem;
+    padding: 0.25rem 0 0.25rem 2rem;
+    border-left: 1px solid $nord5;
+  }
+
+  span {
+    margin-left: auto;
+    text-transform: capitalize;
+  }
+}

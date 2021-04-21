@@ -1,0 +1,16 @@
+@import "nord/src/sass/nord";
+
+$background__base: #ffffff;
+$background__content: #f8f9fb;
+$background__sectioningPrimary: lighten($nord6, 0.045);
+$background__sectioningsecondary: lighten($nord5, 0.06);
+
+/// A darkened background color for landing page section components.
+$background__tertiarySecondary: lighten($nord4, 0.08);
+
+$font__base: $nord3;
+$font__faded: lighten($font__base, 0.2);
+
+$shadow__minimal: rgba($nord4, 0.15);
+$shadow__decent: darken($shadow__minimal, 0.05);
+$shadow__base: darken($shadow__decent, 0.05);
